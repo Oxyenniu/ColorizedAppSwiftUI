@@ -13,9 +13,9 @@ struct ColorizedView: View {
     var blueValue: Double
     
     var body: some View {
-        Color(red: redValue,
-              green: greenValue,
-              blue: blueValue
+        Color(red: redValue / 255,
+              green: greenValue / 255,
+              blue: blueValue / 255
         )
         .frame(width: 350, height: 200)
         .cornerRadius(30)
