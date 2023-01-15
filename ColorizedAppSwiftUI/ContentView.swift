@@ -25,9 +25,9 @@ struct ContentView: View {
                     greenValue: greenSliderValue,
                     blueValue: blueSliderValue
                 )
-                    SliderSettings(value: $redSliderValue, sliderColor: .red)
-                SliderSettings(value: $greenSliderValue, sliderColor: .green)
-                SliderSettings(value: $blueSliderValue, sliderColor: .blue)
+                SliderSettingsView(value: $redSliderValue, sliderColor: .red)
+                SliderSettingsView(value: $greenSliderValue, sliderColor: .green)
+                SliderSettingsView(value: $blueSliderValue, sliderColor: .blue)
                 Spacer()
             }
             .padding()

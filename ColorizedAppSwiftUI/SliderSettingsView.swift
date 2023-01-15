@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SliderSettings: View {
+struct SliderSettingsView: View {
     @Binding var value: Double
     let sliderColor: Color
     
